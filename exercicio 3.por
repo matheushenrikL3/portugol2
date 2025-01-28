@@ -1,13 +1,21 @@
-programa {
-  funcao inicio() {
-    real peso, altura, soma, soma2, soma3
-    escreva ("Digite a altura da pessoa:")
-    leia (peso)
-    escreva ("Digite o peso da pessoa:")
-    leia (altura)
-    soma = altura * altura
-    soma2 = peso / soma
-    soma3 = soma2 * 100000
-    escreva (soma3)
+programa
+{
+    funcao inicio()
+    {
+       inteiro idade
+        escreva("Digite sua idade: ")
+        leia(idade) 
+        
+        se (idade >= 18)
+        {
+            escreva("Você é maior de idade.")
+        }
+        senao
+        {
+            escreva("Você é menor de idade.")
+        }
+    }
+}
+    
   }
 }

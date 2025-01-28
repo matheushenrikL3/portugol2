@@ -1,11 +1,13 @@
 programa {
   funcao inicio() {
-    inteiro base, altura, soma
-    escreva ("Digite a base do retangulo:")
-    leia (base)
-    escreva ("Digite a altura do retangulo:")
-    leia (altura)
-    soma = altura * base
-    escreva (soma)
+    inteiro numero1, numero2 
+    escreva("Digite seu numero: ")
+    leia(numero1)
+    escreva("digite seu segundo numero: ")
+    leia(numero2)
+    se (numero1 > numero2)
+    escreva ("o numero maior e: ",numero1)
+    senao se (numero2 > 1)
+    escreva ("o numero maior e: ",numero2)
   }
 }
