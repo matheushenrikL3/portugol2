@@ -7,7 +7,7 @@ programa {
     leia(numero2)
     se (numero1 > numero2)
     escreva ("o numero maior e: ",numero1)
-    senao se (numero2 > 1)
+    senao se (numero2 > numero1)
     escreva ("o numero maior e: ",numero2)
   }
 }
